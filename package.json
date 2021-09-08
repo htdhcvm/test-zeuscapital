@@ -4,13 +4,14 @@
   "description": "## Тестовое задание",
   "main": "index.js",
   "scripts": {
-    "start" : "node index",
-    "dev" : "nodemon index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "postgres": "^1.0.2"
   },
   "devDependencies": {
